@@ -2,6 +2,28 @@
     height: 75vh;
     filter: brightness(35%);
 }
-.explore-image{
-    width: 100%;
+@media (min-width: 240px) {
+     .carousel-img{
+        height: 40vh;
+     }
+     .carousel-fixed{
+       margin-top: -100px;
+     }
+     
+    }
+@media (min-width: 768px) {
+    .carousel-img{
+        height: 45vh;
+    }
+    .carousel-fixed{
+        margin-top: -100px;
+      }
 }
+@media (min-width: 992px) { 
+    .carousel-img{
+        height: 75vh;
+    }
+    .carousel-fixed{
+        margin-top: -100px;
+      }
+ }
